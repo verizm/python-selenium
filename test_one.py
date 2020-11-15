@@ -15,7 +15,7 @@ driver = webdriver.Chrome()
 driver.get("https://codeforces.com/enter")
 # логин
 email_field = driver.find_element(By.CSS_SELECTOR, "[id='handleOrEmail']").send_keys("v.lazunina@yandex.ru")
-pass_field = driver.find_element(By.CSS_SELECTOR, "[id='password']").send_keys("+_h3wr#6VGMf4Rt")
+pass_field = driver.find_element(By.CSS_SELECTOR, "[id='password']").send_keys("")
 go_button = driver.find_element(By.CSS_SELECTOR, "[value='Войти']").click()
 time.sleep(5)
 
