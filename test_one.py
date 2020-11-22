@@ -5,9 +5,9 @@ from selenium.webdriver.common.by import By
 import time
 
 parser = argparse.ArgumentParser()  # создаем обьект класса ArgumentParser
-parser.add_argument("number_conftest", type=str, help="get number of conftest")
-parser.add_argument("letter_task", type=str, help="get letter of task")
-parser.add_argument("programm", type=str, help="input task code")
+parser.add_argument("n", "--number_conftest", type=str, help="get number of conftest")
+parser.add_argument("-l", "--letter_task", type=str, help="get letter of task")
+parser.add_argument("p", "--programm", type=str, help="input task code")
 args = parser.parse_args()
 
 
